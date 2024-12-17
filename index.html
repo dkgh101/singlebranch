@@ -13,16 +13,26 @@
         <button id="submitButton">Submit</button>
         <button id="cancelButton">Cancel</button>
         <p id="welcomeText">Please select an option from the buttons above.</p>
+        
+        <!-- Language Selector -->
+        <div>
+            <label for="language-select">Choose a language: </label>
+            <select id="language-select">
+                <option value="en-US">English</option>
+                <option value="de-DE">Deutsch</option>
+                <!-- Add more languages here -->
+            </select>
+        </div>
     </main>
 
     <script>
-        // Function to fetch translation data
+        // Function to load translations
         async function loadTranslations(locale) {
             try {
                 const response = await fetch(`locales/${locale}.json`);
                 const translations = await response.json();
 
-                // Update the page content with the translations
+                // Update content based on translations
                 document.getElementById("header").textContent = translations.header;
                 document.getElementById("submitButton").textContent = translations.submitButton;
                 document.getElementById("cancelButton").textContent = translations.cancelButton;
@@ -32,8 +42,14 @@
             }
         }
 
-        // Load English by default, or you can change the locale here
-        loadTranslations('en');
+        // Event listener for language selection
+        document.getElementById('language-select').addEventListener('change', function(event) {
+            const selectedLocale = event.target.value; // Get the selected locale
+            loadTranslations(selectedLocale); // Load translations for the selected locale
+        });
+
+        // Load default language (English) on page load
+        loadTranslations('en-US');
     </script>
 </body>
 </html>
