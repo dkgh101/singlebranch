@@ -1,0 +1,6 @@
+{
+    "header": "simpleui test project for github connector",
+    "submitButton": "Submit",
+    "cancelButton": "Cancel",
+    "welcomeText": "Please select an option from the buttons above."
+}
