@@ -7,12 +7,33 @@
 </head>
 <body>
     <header>
-        <h1>{{header}}</h1>
+        <h1 id="header">Welcome to the Translation Test Project</h1>
     </header>
     <main>
-        <button>{{submitButton}}</button>
-        <button>{{cancelButton}}</button>
-        <p>{{welcomeText}}</p>
+        <button id="submitButton">Submit</button>
+        <button id="cancelButton">Cancel</button>
+        <p id="welcomeText">Please select an option from the buttons above.</p>
     </main>
+
+    <script>
+        // Function to fetch translation data
+        async function loadTranslations(locale) {
+            try {
+                const response = await fetch(`locales/${locale}.json`);
+                const translations = await response.json();
+
+                // Update the page content with the translations
+                document.getElementById("header").textContent = translations.header;
+                document.getElementById("submitButton").textContent = translations.submitButton;
+                document.getElementById("cancelButton").textContent = translations.cancelButton;
+                document.getElementById("welcomeText").textContent = translations.welcomeText;
+            } catch (error) {
+                console.error('Error loading translations:', error);
+            }
+        }
+
+        // Load English by default, or you can change the locale here
+        loadTranslations('en');
+    </script>
 </body>
 </html>
