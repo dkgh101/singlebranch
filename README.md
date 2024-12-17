@@ -1,4 +1,4 @@
-# simpleui for github connector testing
+# sl-gh-connector-test-ui for github connector testing
 
 This is a simple test project to demonstrate the functionality of the translation connector. It includes an `index.html` page with placeholders for text that can be translated into different languages.
 
