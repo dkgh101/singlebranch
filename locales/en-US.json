@@ -2,5 +2,6 @@
     "header": "simpleui test project for github connector",
     "submitButton": "Submit",
     "cancelButton": "Cancel",
-    "welcomeText": "Please select an option from the buttons above."
+    "welcomeText": "Please select an option from the buttons above.",
+    "newButton0122": "another button after clearing files in smartling"
 }
