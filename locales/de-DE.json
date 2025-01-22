@@ -3,5 +3,9 @@
   "submitButton" : "Senden",
   "cancelButton" : "Abbrechen",
   "welcomeText" : "Bitte wählen Sie eine Option aus den Schaltflächen oben aus.",
-  "newButton0122" : "Eine weitere Schaltfläche nach dem Löschen von Dateien in Smartling"
+  "newButton0122" : "Eine weitere Schaltfläche nach dem Löschen von Dateien in Smartling",
+  "newButton0122-2" : "zusätzliche Taste, diese wird nicht autorisiert sein",
+  "newButton0122-3" : "Dritte Schaltfläche, Komma hinzugefügt, zurück ist immer noch nicht authentifiziert",
+  "newButton0122-4" : "Vierte Schaltfläche, vorherige Aufgabe 18 bleibt unauthentifiziert, diese wird authentifiziert",
+  "newButton0122-5" : "Hilf mir - Taste 5"
 }

@@ -3,6 +3,9 @@
     "submitButton": "Submit",
     "cancelButton": "Cancel",
     "welcomeText": "Please select an option from the buttons above.",
-    "newButton0122": "another button after clearing files in smartling"
-    "newButton0122-2": "additional button, this one will be unauthorized"
+    "newButton0122": "another button after clearing files in smartling",
+    "newButton0122-2": "additional button, this one will be unauthorized",
+    "newButton0122-3": "third button, comma added, prev is still unauth",
+    "newButton0122-4": "fourth button, prev job 18 will stay unauth, this one will auth",
+    "newButton0122-5": "help me- button 5"
 }
