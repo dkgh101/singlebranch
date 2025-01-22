@@ -3,5 +3,6 @@
     "submitButton": "Submit",
     "cancelButton": "Cancel",
     "welcomeText": "Please select an option from the buttons above.",
-    "test2025": "whoa new changes need locale-ing"
+    "test2025": "whoa new changes need locale-ing",
+    "test0122-2": "oops forgot a comma"
 }
