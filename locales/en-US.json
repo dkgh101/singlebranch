@@ -7,5 +7,8 @@
     "newButton0122-2": "additional button, this one will be unauthorized",
     "newButton0122-3": "third button, comma added, prev is still unauth",
     "newButton0122-4": "fourth button, prev job 18 will stay unauth, this one will auth",
-    "newButton0122-5": "help me- button 5"
+    "newButton0122-5": "help me- button 5",
+    "new-initial-1": "newinit1",
+    "new-initial-2": "newinit1",
+    "new-initial-3": "newinit1"
 }
