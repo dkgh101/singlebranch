@@ -1,2 +1,3 @@
 string-ed-1,"some words and maybe a smartmatch too"
-string-ed-2,"smartmatch-ed"
+string-ed-2,"strang two"
+string-ed-3,"the string above should def. be smartmatched, as long as the leveredge settings ignore variant"
